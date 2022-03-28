@@ -1,1 +1,1 @@
-// Creating a deep copy of array object using JSON.parse(JSON.stringify(arr));
+// Creating a deep clone of array object using JSON.parse(JSON.stringify(arr));

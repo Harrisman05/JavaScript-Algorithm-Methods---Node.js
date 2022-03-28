@@ -1,6 +1,5 @@
-let num = 16;
+let pin = "0000";
 
-const binaryNum = num.toString(2);
+let parsedPin = Number(pin);
 
-console.log(num); // 16 
-console.log(binaryNum); // 10000 - (16 in binary)
+console.log(parsedPin);
