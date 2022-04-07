@@ -1,5 +1,7 @@
-let pin = "0000";
+const arrow = (greeting) => {
+    return (name) => {
+        console.log(`${greeting} ${name}`);
+    }
+}
 
-let parsedPin = Number(pin);
-
-console.log(parsedPin);
+arrow('Hello')('Harley');
